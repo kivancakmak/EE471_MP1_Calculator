@@ -4,5 +4,5 @@ class Calculator:
         
     def subtract(self, x, y):
     result = x - y
-    self.__current_val = result
+    self._current_val = result
     return result
