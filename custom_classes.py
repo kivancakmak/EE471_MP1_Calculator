@@ -19,4 +19,10 @@ class Calculator:
     self._current_val = result
     return result
 
- 
+    def divide(self, x, y):
+    if y == 0:
+        raise ValueError("Division by zero is not allowed!") # Constraint
+    result = x / y
+    self._current_val = result
+    return result
+
