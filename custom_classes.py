@@ -26,4 +26,3 @@ class Calculator:
         result = x / y
         self._current_val = result
         return result
-
